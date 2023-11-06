@@ -60,6 +60,26 @@
         <button onclick="document.getElementById('demo').innerHTML=Date()">What time is it?</button>
         <p id="demo"></p>
         <button onclick="this.innerHTML=Date()">Are you sure?</button>
+        <p>Click the button to display the date.</p>
+        <button onclick="displayDate()">Display Date!</button>
+        <script>
+          function displayDate() {
+            document.getElementById("demo1").innerHTML = Date();
+          }
+        </script>
+
+        <p id="demo1"></p>
+
+        <!-- 
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p> -->
         <!-- link to project -->
         <a href="#" target="_blank">Link</a>
         <!-- additional links, e.g. newsletter -->
